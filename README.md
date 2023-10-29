@@ -3,48 +3,34 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-The Active Directory home lab is a controlled and isolated environment for learning and experimenting with Microsoft's Active Directory services. It allows you to gain hands-on experience in setting up, configuring, and managing AD domains, users, security policies, and more. This lab typically utilizes virtualization technology and Windows Server operating systems, providing a safe space to practice without impacting production systems or networks.
+In this hands-on lab, we will explore the capabilities of PowerShell for user management in a Windows Server environment and configure a domain controller to act as a router, enabling private network users to access the internet. This lab showcases how PowerShell can be utilized for automating tasks related to user accounts and access control, while also demonstrating network routing and configuration within a Windows environment
 <br />
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
-
+  
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
+- <b>VM workstation </b> (21H2)
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
 Creating Users: <br/>
-<img src="https://i.imgur.com/HoKMOe1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wkJ7hbF.png" height="80%" width="80%" alt="Creating users"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create DHCP scope:  <br/>
+<img src="https://i.imgur.com/CZNHh5Y.png" height="80%" width="80%" alt="DHCP Scope"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Powershell Script for creating users: <br/>
+<img src="https://i.imgur.com/VY80nLj.png" height="80%" width="80%" alt="Powershell"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
 <!--
  ```diff
