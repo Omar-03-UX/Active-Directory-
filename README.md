@@ -1,7 +1,5 @@
 <h1>Active Directory Home Lab </h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 In this hands-on lab, we will explore the capabilities of PowerShell for user management in a Windows Server environment and configure a domain controller to act as a router, enabling private network users to access the internet. This lab showcases how PowerShell can be utilized for automating tasks related to user accounts and access control, while also demonstrating network routing and configuration within a Windows environment
 <br />
